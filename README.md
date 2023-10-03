@@ -9,6 +9,7 @@ Will need an environment variable, `USCENSUS_KEY` defined somewhere in your glob
 To use the project, run :
 
 ```python
+python -m venv env                  # create your virtual environment
 pip install  -r requirements.txt    # install the dependencies
 source env/bin/activate             # load the virtual environment
 ```
